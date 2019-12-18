@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    height: 100vh ;
+}
+#circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: rgb(47, 110, 165);
+    margin: 10px auto;
+    line-height: 500px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 10px 0 rgb(0, 50, 90);
+    user-select: none;
+    
+}
+#circle:hover{
+    opacity: 0.9;
+}
+
+#circle:active{
+    box-shadow: 0 5px 0 rgb(0, 50, 90) ;
+    margin-top: 15px;
+
+}
