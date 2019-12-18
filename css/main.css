@@ -3,6 +3,8 @@ body{
     align-items: center;
     text-align: center;
     height: 100vh ;
+    text-rendering:optimizeLegibility;
+    font-family: 'Times New Roman', Times, serif;
 }
 #circle{
     width: 500px;
